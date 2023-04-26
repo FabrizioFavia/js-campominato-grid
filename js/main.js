@@ -3,18 +3,16 @@ let startBtn = document.getElementById("start");
 let gridWidth = 49;
 
 
-function difficultySelect(change) {
+function difficultySelect(value) {
 
-    let selectElement = document.getElementById("difficultySelect");
-    selectElement = change.target;
-    var value = selectElement.value;
     gridWidth = value;
-    return gridWidth;
 }
 
 startBtn.addEventListener("click", function () {
 
+    cellContainer.innerHTML = "";
     for (let i = 1; i <= gridWidth; i++) {
+
         const cell = document.createElement("div");
         cell.classList.add("cell");
 
@@ -34,6 +32,7 @@ startBtn.addEventListener("click", function () {
 
         cell.addEventListener("click", function (){
             this.classList.toggle("bckgBlue");
+            console.log(this.innerText)
         })
 
         cellContainer.appendChild(cell);
