@@ -1,31 +1,31 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-main{
+main {
     width: 100vw;
-    height: calc(100vh - 192px);
+    height: calc(100vh - 198px);
     background-color: aquamarine;
     display: inline-block;
     padding-top: 2.5em;
 }
 
-footer{
+footer {
     height: 96px;
 }
 
-.fa-bomb{
+.fa-bomb {
     font-size: 60px;
 }
 
-div#grid{
+div#grid {
     width: 700px;
     height: 700px;
 }
 
-.cell{
+.cell {
     width: calc(100% / 8);
     height: calc(100% / 8);
     display: flex;
@@ -33,4 +33,3 @@ div#grid{
     justify-content: center;
     border: 2px solid black;
 }
-
