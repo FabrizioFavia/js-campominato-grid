@@ -26,9 +26,27 @@ div#grid {
     background-color: white;
 }
 
-.cell {
+.easyCell {
     width: calc(100% / 8);
     height: calc(100% / 8);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid black;
+}
+
+.mediumCell {
+    width: calc(100% / 9);
+    height: calc(100% / 9);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid black;
+}
+
+.hardCell {
+    width: calc(100% / 10);
+    height: calc(100% / 10);
     display: flex;
     align-items: center;
     justify-content: center;
