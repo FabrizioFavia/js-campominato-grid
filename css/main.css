@@ -4,9 +4,10 @@
     box-sizing: border-box;
 }
 
+
 main {
     width: 100vw;
-    height: 630px;
+    height: calc(100vh - 180px);
     background-color: aquamarine;
     display: inline-block;
     display: flex;
@@ -23,8 +24,8 @@ footer {
 }
 
 div#grid {
-    width: 560px;
-    height: 560px;
+    width: 550px;
+    height: 550px;
     background-color: white;
 }
 
