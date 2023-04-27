@@ -11,6 +11,7 @@ function difficultySelect(value) {
 startBtn.addEventListener("click", function () {
 
     cellContainer.innerHTML = "";
+
     for (let i = 1; i <= gridWidth; i++) {
 
         const cell = document.createElement("div");
@@ -27,10 +28,10 @@ startBtn.addEventListener("click", function () {
         if (gridWidth == 100) {
             cell.classList.add("hardCell");
         }
-        
+
         cell.append(i);
 
-        cell.addEventListener("click", function (){
+        cell.addEventListener("click", function () {
             this.classList.toggle("bckgBlue");
             console.log(this.innerText)
         })

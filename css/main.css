@@ -6,14 +6,14 @@
 
 main {
     width: 100vw;
-    height: calc(100vh - 198px);
+    height: calc(100vh - 160px);
     background-color: aquamarine;
     display: inline-block;
     padding-top: 2.5em;
 }
 
 footer {
-    height: 96px;
+    height: 40px;
 }
 
 .fa-bomb {
@@ -21,8 +21,8 @@ footer {
 }
 
 div#grid {
-    width: 700px;
-    height: 700px;
+    width: 550px;
+    height: 550px;
     background-color: white;
 }
 
